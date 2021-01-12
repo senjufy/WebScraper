@@ -6,14 +6,13 @@
 import scrapy
 
 
-class ScrapeItem(scrapy.Item):
+class ScrapeItem(scrapy.Item):  # Function for amazon spider
     # define the fields for your item here like:
     # name = scrapy.Field()
     title = scrapy.Field()
-    #author = scrapy.Field()
+    # author = scrapy.Field()
 
 
-
-class ScrapeMovies(scrapy.Item):
+class ScrapeMovies(scrapy.Item): # Function for movie spider
     MovieTitle = scrapy.Field()
 
